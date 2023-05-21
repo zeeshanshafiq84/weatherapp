@@ -1,4 +1,4 @@
-window.getWeather = function(){
+   window.getWeather = function(){
 
     let cityName = document.querySelector ("#cityName").value;
     
