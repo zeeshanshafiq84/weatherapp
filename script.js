@@ -8,8 +8,8 @@
   .then(function (response) {
     // handle success
     console.log(response.data);
-    document.querySelector(".temp").innerHTML = ` ${response.data.name}${response.data.main.temp}`
-    document.querySelector('.humidity').innerHTML = `${response.data.main.humidity}`
+    document.querySelector(".temp").innerHTML = `${response.data.name} ${response.data.main.temp}°C`
+    document.querySelector('.humidity').innerHTML = `${response.data.main.humidity}%`
     document.querySelector('.wind').innerHTML = `${response.data.wind.speed}`
     
     
